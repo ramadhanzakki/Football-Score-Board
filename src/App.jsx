@@ -26,7 +26,7 @@ function App() {
   function handleScore1() {
     setScore(scoreTeam1 + 1)
   }
-  
+
   function handleScore2() {
     setScoreTeam(scoreTeam2 + 1)
   }
@@ -50,9 +50,9 @@ function App() {
           <ShowScore currentScore={scoreTeam2} />
           <ActionButton onCLickBtn={handleScore2} textBtn="Tambah Score" />
         </div>
-        <div className="reset-container">
-          <ActionButton onCLickBtn={handleReset} textBtn="Reset Score"/>
-        </div>
+      </div>
+      <div className="reset-container">
+        <ActionButton onCLickBtn={handleReset} textBtn="Reset Score" />
       </div>
     </div>
   )
