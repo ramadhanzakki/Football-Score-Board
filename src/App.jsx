@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="container">
-      <h2>Piala Desa U-17 2025</h2>
+      <input type="text" placeholder='Set Tournament Name'/>
       <div className="score-board">
         <div className="team">
           <input type="text" placeholder='Your Team'/>

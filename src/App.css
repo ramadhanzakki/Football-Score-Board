@@ -23,12 +23,14 @@ body {
     padding: 25px;
 }
 
-.container h2 {
+.container input {
     color: black;
     font-size: 1.5rem;
+    background-color: white;
     text-align: center;
+    border: none;
+    height: 50px;
 }
-
 
 .score-board {
     display: flex;
