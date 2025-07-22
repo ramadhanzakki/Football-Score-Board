@@ -65,3 +65,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.btn button:hover {
+    transform: scale(110%);
+}
