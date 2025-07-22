@@ -2,7 +2,8 @@
 
 A clean, simple, and interactive scoreboard application built with React. This project was created to practice fundamental React concepts like state management and component interaction.
 
-![Scoreboard App Screenshot](https://i.imgur.com/lJmV5n1.png)
+![Scoreboard App Screenshot](<img width="1916" height="925" alt="image" src="https://github.com/user-attachments/assets/52aa672b-d673-4f58-a1ec-bde3931d87a9" />
+)
 
 ## ✨ Features
 
