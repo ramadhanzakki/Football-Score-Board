@@ -41,12 +41,12 @@ function App() {
       <h2>Piala Desa U-17 2025</h2>
       <div className="score-board">
         <div className="team">
-          <h3>Mandan FC</h3>
+          <input type="text" placeholder='Your Team'/>
           <ShowScore currentScore={scoreTeam1} />
           <ActionButton onCLickBtn={handleScore1} textBtn="Tambah Score" />
         </div>
         <div className="team">
-          <h3>Dingin FC</h3>
+          <input type="text" placeholder='Your Team'/>
           <ShowScore currentScore={scoreTeam2} />
           <ActionButton onCLickBtn={handleScore2} textBtn="Tambah Score" />
         </div>
